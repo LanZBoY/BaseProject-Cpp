@@ -7,7 +7,11 @@ void testGetTriangleType() {
 
 int main() {
     assert(addNumber(5, 2) == 7);
+<<<<<<< HEAD
     assert(mux(5,2)==10);
+=======
+    assert(addnumber2(5, 2) == 4);
+>>>>>>> master
     testGetTriangleType();
     return 0;
 }
