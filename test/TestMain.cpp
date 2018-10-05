@@ -9,7 +9,7 @@ int main() {
     assert(addNumber(5, 2) == 7);
     assert(timeNumber(5, 2) == 10);
     assert(mux(5,2)==10);
-    assert(addnumber2(5, 2) == 4);
+    assert(addnumber2(5, 2) == 3);
     testGetTriangleType();
     return 0;
 }

@@ -19,13 +19,12 @@ int addNumber(int a, int b) {
     return a + b;
 }
 
-<<<<<<< HEAD
 int timeNumber(int a, int b) {
     return a * b;
-=======
+}
+
 int addnumber2(int a, int b){
     return a - b;
->>>>>>> master
 }
 
 int getTriangleType(int a, int b, int c) {
