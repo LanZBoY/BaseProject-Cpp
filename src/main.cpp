@@ -6,9 +6,14 @@ int main() {
     printf("Rule Breaker!!!\n");
     printf("5 + 2 = %d\n", addNumber(5, 2));
     printf("%d\n", getTriangleType(3, 4, 5));
+    printf("5 * 2 = %d\n",mux(5,2));
     return 0;
 }
 #endif // TEST
+
+int mux(int a,int b){
+    return a*b;
+}
 
 int addNumber(int a, int b) {
     return a + b;
